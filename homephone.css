@@ -1,0 +1,49 @@
+.navbar li a {
+    padding: 10px;
+    font-size: 16px;
+}
+.right {
+    right: 1px;
+    top: 13px;
+}
+button.btn {
+    font-size: 15px;
+    padding: 8px;
+    margin: 0px 4px;
+}
+section#uppersection{
+    height: 100vh;
+}
+section#uppersection::before {
+    height: 100vh;
+    width: 100vw;
+}
+section#uppersection #heading .text {
+    font-size: 126px;
+    z-index: 1;
+    margin-top: 44vh;
+}
+div.slogan {
+    font-size: 21px;
+    margin-left: 5px;
+    margin-top: 13px;
+}
+div#heading {
+    padding: 40px 40px 22px 37px;
+    height: 38vh;
+    width: 56vw;
+     display: block;
+}
+div#heading hr {
+    width: 26vw;
+    margin-top: 25px;
+    margin-left: 11px;
+    color: black;
+}
+div#frstcontact {
+    margin-top: 36px;
+    margin-left: 2vw;
+}
+div p.work {
+    margin: 3vh 1vw 1vh 1vw;
+}
