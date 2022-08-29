@@ -1,14 +1,12 @@
 header{
     height: fit-content;
 }
-
-
 .navbar li a {
     font-size: 13px;
     padding: 10px;
 }
 .right {
-    right: 0px;
+    right: 0;
     top: 23px;
 }
 .mid{
@@ -16,9 +14,10 @@ header{
     padding-top: 8vh;
     margin: auto;
     padding-left: 0px;
+    
 }
 button.btn {
-    font-size: 9px;
+    font-size: 13px;
     padding: 8px;
     margin: 0px 4px;
 }
@@ -107,24 +106,26 @@ section#secondsection::before{
     height: 67vh;
 }
 div.circleimg {
-    width: 95vw;
+    width: 64vw;
     margin: auto;
-    margin-top: 6vh;
-    margin-bottom: 6vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
 }
 div.circleimg img {
-    height: 25vh;
-    width: 87vw;
-    margin: 0px 20px 0px 20px;
+    height: 31vh;
+    width: 62vw;
+    max-width: 635px;
 }
 p.thirdhead {
     font-size: 2.5rem;
 }
 div#thrdpara {
-    margin-top: 0;
+    margin: auto;
+    margin-bottom: 6vh;
+    margin-top: 3vh;
 }
 p.thrdpara {
-    width: 89vw;
+    width: 95vw;
     margin: 0px 10px 0px 10px;
 }
 section#forthsection {
@@ -140,19 +141,22 @@ div#fourth p.thrdpara {
 }
 div#fourth div#contactlash{
     margin: auto;
-    margin-left: 37%;
-    margin-top: 4%;
+    text-align: center;
+    margin-top: 2vh;
+    width: 90vw;
 }
 div#contactlash {
-    margin-left: 37%;
+    margin: auto;
+    text-align: center;
     margin-top: 2vh;
-    width: 50vw;
+    width: 100vw;
 }
 div#forthimg{
     margin: auto;
 }
 div#forthimg img {
-    width: 44vw;
+    width: 81vw;
+    max-width: 595px;
     height: 41vh;
     /* margin: 7px 50px */
 }
@@ -217,9 +221,10 @@ section#eighthsection::before {
 }
 div.boxes img {
     
-    width: 11vw;
+    width: 20vw;
+    max-width: 109px;
     height: 8vh;
-    margin: 1vh 26vw 1vh 26vw;
+    margin: auto;
 }
 div#artistdescription {
     flex-direction: column;
