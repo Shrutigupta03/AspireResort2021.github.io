@@ -12,7 +12,7 @@ header{
     top: 23px;
 }
 .mid{
-    flex-direction: column;
+    flex-direction: row;
     padding-top: 12vh;
     
 }
