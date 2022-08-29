@@ -8,12 +8,13 @@ header{
     padding: 10px;
 }
 .right {
-    right: 1px;
+    right: 0px;
     top: 23px;
 }
 .mid{
     flex-direction: row;
-    padding-top: 12vh;
+    padding-top: 8vh;
+    margin: auto;
     
 }
 button.btn {
