@@ -18,10 +18,10 @@
 
 .mid {
        font-size: 23px;
-       display: block;
+       display: flex;
        margin: -7px auto;
        padding: 25px;
-       padding-left: 480px;
+       /* padding-left: 480px; */
        justify-content: center;
    }
 
@@ -310,6 +310,9 @@ div#fourth{
    color: white;
    margin-top: 8vh;
    width: 60vw;
+}
+div#forthimg{
+   margin: auto;
 }
 div#forthimg img{
    width: 44vw;
