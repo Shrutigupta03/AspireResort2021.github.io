@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+} 
+.left {
+      font-size: 20px;
+      display: inline-block;
+      position: absolute;
+      left: 8px;
+      top: 8px;
+  }
+  .left img {
+      width: 56px;
+      height: 56px;
+      padding-left: 10px;
+  }
+
+  .mid {
+   font-size: 23px;
+   display: flex;
+   margin: -7px auto;
+   padding: 25px;
+   /* padding-left: 480px; */
+   justify-content: center;
+   }
+
+  .right {
+      position: absolute;
+      right: 34px;
+      top: 13px;
+      display: inline-block;
+  }
+  header{
+      background-color:rgb(0, 0, 0);
+      height: 77px;
+      width: 100vw;
+  }
+
+  .navbar {
+      display: inline-block;
+      justify-content: center;
+      text-align: center;
+      margin: 4px auto;
+  }
+
+  .navbar li {
+      display: inline-block;
+      color: white;
+      font-size: 22px;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .navbar li a {
+      color: rgb(252, 251, 251);
+      text-decoration: none;
+      padding: 15px;
+      
+  }
+
+  .navbar li a:hover,
+  .navbar li a.active {
+      color: rgb(152, 194, 208);
+      text-decoration: underline;
+      padding: 15px;
+      cursor: pointer;
+  }
+
+  .btn:hover {
+      background-color: rgb(152, 194, 208);
+      border-color: white;
+      color: white;
+      cursor: pointer;
+  }
+  div.container button.btn{
+      margin-left: 30%;
+      margin-top: 30px;
+      padding: 10px 40px;
+      border-radius: 45px;
+  }
+  button.btn{
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 12px;
+  margin: 0px 11px;
+  /* border: none; */
+  color: rgb(152, 194, 208);
+  }  
+  div.left{
+      margin:auto;
+  } 
+
+   footer{
+   height: 50vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+}
+footer div#footercontact{
+   height: 47vh;
+   background-color: rgb(22 21 21);
+   color: white;
+   padding: 24px 48px;
+}
+div#footercontact p{
+   margin-bottom: 13px;
+}
+div#footercontact p a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+}
+div#footerimg img{
+   width: 25px;
+   height: 25px;
+   text-align: center;
+   filter: invert(100%);
+}
+footer div.center{
+   width: 100vw;
+   height: 3vh;
+   background: black;
+   color: white;
+   padding: 9px 0px;
+   justify-content: center;
+   text-align: center;
+   }
