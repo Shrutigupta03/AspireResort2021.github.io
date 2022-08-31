@@ -269,11 +269,16 @@ p.artistname {
 div.lastslogan {
     font-size: 2rem;
 }
+footer{
+    height: 44vh;
+}
 footer div#footercontact {
     height: 39vh;
     padding: 45px 12px;
     font-size: 0.7rem;
 }
 footer div.center {
-    height: 5vh;
+    height: 3vh;
+    padding-top: 1vh;
+    font-size: 0.7rem;
 }
