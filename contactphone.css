@@ -39,11 +39,16 @@ div.formitem{
 #inputsubmit{
     margin: auto 22% 10%;
 }
+footer{
+    height: 44vh;
+}
 footer div#footercontact {
     height: 39vh;
     padding: 45px 12px;
     font-size: 0.7rem;
 }
 footer div.center {
-    height: 5vh;
+    height: 3vh;
+    padding-top: 1vh;
+    font-size: 0.7rem;
 }
