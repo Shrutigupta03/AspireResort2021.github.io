@@ -247,7 +247,7 @@ section#thirdsection::before{
    content: "";
    position: absolute;
    background-color: rgb(116 173 196 / 67%);
-   height: 57vh;
+   height: 60vh;
    width: 100vw;
    z-index: -1;
 }
