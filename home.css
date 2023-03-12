@@ -17,13 +17,13 @@
  }
 
 .mid {
-  font-size: 23px;
-  display: flex;
-  margin: -7px auto;
-  padding: 25px;
-  /* padding-left: 480px; */
-  justify-content: center;
- }
+       font-size: 18px;
+       display: flex;
+       margin: -7px auto;
+       padding: 25px;
+       /* padding-left: 480px; */
+       justify-content: center;
+   }
 
  .right {
      position: absolute;
@@ -247,7 +247,7 @@ section#thirdsection::before{
    content: "";
    position: absolute;
    background-color: rgb(116 173 196 / 67%);
-   height: 57vh;
+   height: 60vh;
    width: 100vw;
    z-index: -1;
 }
