@@ -253,7 +253,7 @@ div#artistdescription {
 }
 div.boxes {
     width: 65vw;
-    height: 34vh;
+    height: fit-content;
     margin: 10px;
     margin: auto;
     margin-bottom: 1vh;

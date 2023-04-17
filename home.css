@@ -20,7 +20,7 @@ html{
  }
 
 .mid {
-       font-size: 18px;
+       font-size: 15px;
        display: flex;
        margin: -7px auto;
        padding: 25px;
@@ -83,7 +83,7 @@ html{
      border-radius: 45px;
  }
  button.btn{
- font-size: 20px;
+ font-size: 14px;
  padding: 10px;
  font-weight: bold;
  border-radius: 12px;
@@ -260,7 +260,7 @@ section#thirdsection div.thrd{
 }
 div.thrdhead{
    font-family: 'Updock', cursive;
-   font-size: 3rem;
+   font-size: 2rem;
    margin-left: 10vw;
    padding-top: 17px;
    text-shadow: 4px 4px 5px rgb(169, 162, 162);
@@ -280,15 +280,14 @@ p.thrdpara{
    margin: auto;
    width: 47vw;
    margin-left: 192px;
-   font-size: 17px;
+   font-size: 15px;
 }
 p.thirdhead{
-   font-size: 72px;
+   font-size: 3rem;
    font-family: 'Lavishly Yours', cursive;
 }
 div#thrdpara{
    justify-content: center;
-   margin-top: -5vh;
 }
 div#contactlash{
    font-size: 32px;
@@ -435,11 +434,11 @@ p.artist{
 div p.work{
    font-family: 'Rokkitt', serif;
    margin: 3vh 2vw 1vh 2vw;
-   font-size: 1rem;
+   font-size: 0.8rem;
 }
 div.lastslogan{
    font-family: 'Whisper', cursive;
-   font-size: 3rem;
+   font-size: 2rem;
    text-align: center;
    margin-top: 4vh;
 }
@@ -457,12 +456,13 @@ footer div#footercontact{
 }
 div#footercontact p{
    margin-bottom: 13px;
+   font-size: 12px;
 }
 div#footercontact p a{
    text-decoration: none;
    color: white;
    font-weight: bold;
-   font-size: 20px;
+   font-size: 18px;
 }
 div#footerimg img{
    width: 25px;
