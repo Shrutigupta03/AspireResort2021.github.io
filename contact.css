@@ -91,6 +91,9 @@
  div.left{
      margin:auto;
  } 
+/* .content{
+    height: 110vh;   
+}  */
 section#imgbody{
    background-image: url('resmain.jpg') ;
    background-repeat: no-repeat;
@@ -100,7 +103,7 @@ section#imgbody{
    top: 0px;
    left: 0px;
    width: 100vw;
-   height: 100vh;
+   height: 115vh;
    z-index: -1;
 }    
 
